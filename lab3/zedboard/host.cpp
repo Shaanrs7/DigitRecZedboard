@@ -102,7 +102,7 @@ int main(int argc, char** argv)
 		{
 			 int32_t recvd_i;
 			 nbytes = read (fdr, (void*)&recvd_i, sizeof(recvd_i));
-			 std::cout<<"i =\t"<<i<<"\trecvd size=\t"<<sizeof(recvd_i)<<"\tnbytes=\t"<<nbytes<<"\n\n";
+			// std::cout<<"i =\t"<<i<<"\trecvd size=\t"<<sizeof(recvd_i)<<"\tnbytes=\t"<<nbytes<<"\n\n";
 	   	     assert (nbytes == sizeof(recvd_i));
 			 
 			 bit32_t recvd_temp = recvd_i;
